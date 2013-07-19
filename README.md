@@ -1,7 +1,7 @@
 scala-sbt.g8
 ============
 
-A Giter8(https://github.com/n8han/giter8) template that creates a sbt(https://github.com/sbt/sbt) project with support for Scala 2.10 and ScalaTest.
+A Giter8[https://github.com/n8han/giter8] template that creates a sbt[https://github.com/sbt/sbt] project with support for Scala 2.10 and ScalaTest.
 Bases on sbt 0.12 it includes:
 
 * eclipse plugin

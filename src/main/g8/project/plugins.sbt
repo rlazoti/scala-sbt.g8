@@ -1,1 +1,1 @@
-addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "$sbteclipse-version$")
+addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "$sbteclipse_version$")

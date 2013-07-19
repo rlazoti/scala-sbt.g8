@@ -1,6 +1,7 @@
 import sbt._
 import sbt.Keys._
 import Dependencies._
+import com.twitter.sbt._
 
 object AppBuilder extends Build {
   

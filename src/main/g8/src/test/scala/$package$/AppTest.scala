@@ -10,7 +10,7 @@ class AppTest extends FunSpec {
   describe("My first spec") {
 
     it("should pass") {
-      assert true
+      assert(true)
     }
 
   }

@@ -2,10 +2,10 @@ import sbt._
 
 object Dependencies {
 
-  //val dependencyName = "dependency package" %% "dependency name" % "dependency version"
+  val scalaTest = "org.scalatest" %% "scalatest" % "$scalatest-version$"
 
   val appDependencies = Seq(
-    //dependencyName % "scope"
+    scalatest % "test"
   )
 
 }

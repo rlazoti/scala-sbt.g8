@@ -8,7 +8,7 @@ object AppBuilder extends Build {
     name := "$name$",
     organization := "$organization$",
     version := "$version$",
-    scalaVersion := "$scalaVersion$"
+    scalaVersion := "$scala-version$"
   )
 
   lazy val meuvale = Project("$name$", file("."))

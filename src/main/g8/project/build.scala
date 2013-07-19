@@ -11,7 +11,7 @@ object AppBuilder extends Build {
     scalaVersion := "$scala_version$"
   )
 
-  lazy val meuvale = Project("$name$", file("."))
+  lazy val app = Project("$name$", file("."))
     .settings(appSettings : _*)
     .settings(libraryDependencies ++= appDependencies)
 

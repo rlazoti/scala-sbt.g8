@@ -8,7 +8,11 @@ object AppBuilder extends Build {
     name := "$name$",
     organization := "$organization$",
     version := "$version$",
-    scalaVersion := "$scala_version$"
+    scalaVersion := "$scala_version$",
+    scalacOptions := Seq("-deprecation", "-feature", "-unchecked", "-language:postfixOps"),
+
+    unmanagedSourceDirectories in Compile <<= (scalaSource in Compile)(Seq(_)),
+    unmanagedSourceDirectories in Test    <<= (scalaSource in Test)(Seq(_))
   )
 
   lazy val app = Project("$name$", file("."))

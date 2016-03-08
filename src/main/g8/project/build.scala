@@ -3,7 +3,7 @@ import sbt.Keys._
 import Dependencies._
 
 object AppBuilder extends Build {
-  
+
   val appSettings = Seq(
     name := "$name$",
     organization := "$organization$",

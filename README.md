@@ -1,26 +1,31 @@
 scala-sbt.g8
 ============
 
-A [Giter8](https://github.com/n8han/giter8) template that creates a [sbt](https://github.com/sbt/sbt) project with support for Scala 2.10 and ScalaTest.
-Bases on sbt 0.12 it includes:
+A [Giter8](https://github.com/n8han/giter8) template that creates a [sbt](https://github.com/sbt/sbt) project with support for Scala and ScalaTest.
 
-* eclipse plugin
-* sbt-package-dist plugin
 
 Usage
 =====
-Open a console and:
+After installing [Giter8](https://github.com/n8han/giter8), type:
 
-    $ g8 rlazoti/scala-sbt.g8
+```bash
+$ g8 rlazoti/scala-sbt.g8
+```
 
-The '.g8' suffix is implicit so you could also do:
+Note that the '.g8' suffix is implicit so you could also do:
 
-    $ g8 rlazoti/scala-sbt
+```bash
+$ g8 rlazoti/scala-sbt
+```
 
-You'll now be prompted for each parameters, I know there are a lot of them and I don't know why they aren't logically ordered. :P
+You'll now be prompted for some parameters, just hit "Enter" for default values or type something.
 
-Once everything is ok (you can leave everything by default):
+Once everything is okay, type:
 
-    $ cd <your newly created folder>
+```bash
+$ cd <your newly created folder>
+$ sbt
+```
 
-    $ sbt
+
+It's done! :)
